@@ -1,10 +1,9 @@
 module.exports = {
   //-- SITE SETTINGS -----
   author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
-  siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+  siteTitle: "Winson Chan Portfolio",
+  siteShortTitle: "Winson Chan", // Used as logo text in header, footer, and splash screen
+  siteDescription: "A modern portfolio.",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
@@ -58,21 +57,13 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
-    },
-    {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      url: "https://www.linkedin.com/in/winson-chan-io/",
     },
     {
       name: "Github",
-      url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+      url: "https://github.com/winsonchan835",
     },
-    {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
-    },
+
     // {
     //   name: "Mail",
     //   url: "mailto:mail@konstantin.digital",
@@ -87,7 +78,7 @@ module.exports = {
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Projects",
         url: "/#projects",
       },
       {
