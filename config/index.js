@@ -1,10 +1,10 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
+  author: "@winsonchan835",
   siteTitle: "Winson Chan Portfolio",
   siteShortTitle: "Winson Chan", // Used as logo text in header, footer, and splash screen
-  siteDescription: "A modern portfolio.",
-  siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+  siteDescription: "Winson Chan portfolio.",
+  siteUrl: "winsonchan.net",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
   seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
