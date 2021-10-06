@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "Winson Chan Portfolio",
   siteShortTitle: "Winson Chan", // Used as logo text in header, footer, and splash screen
   siteDescription: "Winson Chan portfolio.",
-  siteUrl: "www.winsonchan.net",
+  siteUrl: "https://winsonchan.net",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
   seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
