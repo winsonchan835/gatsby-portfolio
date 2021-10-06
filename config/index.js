@@ -26,8 +26,8 @@ module.exports = {
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
     },
     darkTheme: {
-      primary: "#FAFAFA",
-      secondary: "#2A2926",
+      primary: "rgb(0, 30, 108)",
+      secondary: "rgb(3, 83, 151)",
       tertiary: "#252525",
       text: "rgba(255, 255, 255, 0.87)",
       subtext: "#AAAAAA",
