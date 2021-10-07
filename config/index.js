@@ -1,13 +1,13 @@
 module.exports = {
   //-- SITE SETTINGS -----
   author: "@winsonchan835",
-  siteTitle: "Winson Chan Portfolio",
+  siteTitle: "Winson Chan",
   siteShortTitle: "Winson Chan", // Used as logo text in header, footer, and splash screen
-  siteDescription: "Winson Chan portfolio.",
+  siteDescription: "Winson Chan's personal portfolio website.",
   siteUrl: "https://winsonchan.net",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "WC Portfolio", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
   googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
 
@@ -26,12 +26,12 @@ module.exports = {
       boxShadowHover: "rgba(0, 0, 0, 0.32)",
     },
     darkTheme: {
-      primary: "rgb(0, 30, 108)",
-      secondary: "rgb(3, 83, 151)",
-      tertiary: "#252525",
-      text: "rgba(255, 255, 255, 0.87)",
+      primary: "#889EAF",
+      secondary: "#301B3F",
+      tertiary: "#151515",
+      text: "#B4A5A5",
       subtext: "#AAAAAA",
-      background: "#121212",
+      background: "#151515",
       card: "#1C1C1C",
       scrollBar: "rgba(255, 255, 255, 0.5)",
       boxShadow: "rgba(0, 0, 0, 0.16)",
@@ -89,18 +89,18 @@ module.exports = {
     button: {
       useFileName: true,
       name: "Resume",
-      fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
+      fileName: "Winson-Chan-Resume.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
   footerLinks: [
-    {
-      name: "Privacy",
-      url: "/privacy",
-    },
-    {
-      name: "Imprint",
-      url: "/imprint",
-    },
+    // {
+    //   name: "Privacy",
+    //   url: "/privacy",
+    // },
+    // {
+    //   name: "Imprint",
+    //   url: "/imprint",
+    // },
   ],
 }
